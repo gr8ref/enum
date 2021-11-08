@@ -1,11 +1,11 @@
 {
-    "name": "rumi55/enum",
+    "name": "gr8ref/enum",
     "description": "PHP Enum implementation",
     "type": "library",
     "keywords": [
         "enum", "enumeration", "enumerator"
     ],
-    "homepage": "https://github.com/rumi55/enum",
+    "homepage": "https://github.com/gr8ref/enum",
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rumi55\\": "src/"
+            "gr8ref\\": "src/"
         },
         "files": [
             "src/functions.php"
@@ -30,7 +30,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "rumi55\\Tests\\": "tests/"
+            "gr8ref\\Tests\\": "tests/"
         }
     },
     "extra": {

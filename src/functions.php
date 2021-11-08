@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace rumi55;
+namespace gr8ref;
 
 /**
  * Generates an enum php doc block for describing static methods.

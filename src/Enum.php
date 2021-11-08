@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @link     https://github.com/Ne-Lexa/enum
  */
 
-namespace rumi55;
+namespace gr8ref;
 
 /**
  * Based functional of Enum type.
