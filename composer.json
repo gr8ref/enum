@@ -1,0 +1,41 @@
+{
+    "name": "rumi55/enum",
+    "description": "PHP Enum implementation",
+    "type": "library",
+    "keywords": [
+        "enum", "enumeration", "enumerator"
+    ],
+    "homepage": "https://github.com/rumi55/enum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rumi",
+            "email": "refik@umisoft.ba"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rumi55\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rumi55\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
